@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NatureQuest – Support & Datenschutz</title>
+<style>
+  :root {
+    --meadow:#b8ddb3; --leaf:#8cc795; --river:#9fd4ec; --wood:#cca680;
+    --sun:#fce699; --sand:#f5eedc; --ink:#334740;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink); line-height:1.65;
+    background:linear-gradient(160deg,#d3ecf6 0%,var(--sand) 45%,var(--meadow) 100%);
+    min-height:100vh; padding:0 20px 60px;
+  }
+  header { text-align:center; padding:64px 16px 40px; }
+  .logo { font-size:52px; }
+  h1 { font-size:2rem; font-weight:800; margin:8px 0 4px; }
+  .sub { color:#5c6b64; font-size:1.05rem; }
+  main {
+    max-width:720px; margin:0 auto; background:rgba(255,255,255,.72);
+    backdrop-filter:blur(8px); border-radius:26px; padding:36px 32px;
+    box-shadow:0 12px 40px rgba(51,71,64,.10); border:1px solid rgba(255,255,255,.6);
+  }
+  section + section { margin-top:34px; padding-top:30px; border-top:1px solid rgba(51,71,64,.10); }
+  h2 { font-size:1.4rem; margin-bottom:12px; display:flex; align-items:center; gap:10px; }
+  h2 .dot { width:12px; height:12px; border-radius:50%; background:var(--leaf); flex:none; }
+  p, li { margin-bottom:10px; }
+  ul { padding-left:22px; }
+  a { color:#2b8bb0; }
+  .card {
+    background:var(--sand); border-radius:18px; padding:18px 20px; margin-top:14px;
+  }
+  .muted { color:#6b7a73; font-size:.9rem; }
+  footer { text-align:center; margin-top:36px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌲</div>
+    <h1>NatureQuest</h1>
+    <p class="sub">Lernabenteuer für Kinder · Support &amp; Datenschutz</p>
+  </header>
+
+  <main>
+    <section id="support">
+      <h2><span class="dot"></span>Support &amp; Kontakt</h2>
+      <p>NatureQuest ist ein Lernspiel für Kinder von 7 bis 12 Jahren
+         (Mathe, Deutsch, Englisch). Bei Fragen, Rückmeldungen oder
+         Problemen mit der App erreichst du uns per E-Mail:</p>
+      <div class="card">
+        <strong>E-Mail:</strong>
+        <a href="mailto:eugen@kwol.de">eugen@kwol.de</a><br>
+        <span class="muted">Wir antworten in der Regel innerhalb weniger Tage.</span>
+      </div>
+    </section>
+
+    <section id="datenschutz">
+      <h2><span class="dot"></span>Datenschutzerklärung</h2>
+      <p><strong>Kurz gesagt:</strong> NatureQuest sammelt keinerlei Daten.
+         Alles, was in der App passiert, bleibt auf dem Gerät.</p>
+      <ul>
+        <li><strong>Keine Datenerhebung:</strong> Die App erhebt, speichert
+            oder überträgt keine personenbezogenen Daten an uns oder Dritte.</li>
+        <li><strong>Lokale Speicherung:</strong> Profile (Name, Alter, Avatar)
+            und Spielstände werden ausschließlich lokal auf dem Gerät gespeichert
+            (Apple SwiftData). Sie verlassen das Gerät nicht und sind für uns
+            nicht einsehbar.</li>
+        <li><strong>Keine Internetverbindung nötig:</strong> Die App funktioniert
+            vollständig offline und baut keine Netzwerkverbindungen auf.</li>
+        <li><strong>Keine Werbung, kein Tracking:</strong> Die App enthält keine
+            Werbung, keine Analyse-Tools, keine Tracker und keine In-App-Käufe.</li>
+        <li><strong>Keine Weitergabe an Dritte:</strong> Es werden keine Daten
+            an Dritte weitergegeben – es gibt schlicht keine.</li>
+        <li><strong>Löschen der Daten:</strong> Alle Daten werden durch Löschen
+            der App oder über die Profil-Verwaltung in der App entfernt.</li>
+      </ul>
+
+      <h2 style="font-size:1.1rem;margin-top:22px;"><span class="dot"></span>Kinder</h2>
+      <p>NatureQuest ist für Kinder von 7–12 Jahren gemacht und erfüllt die
+         Anforderungen der App-Store-Kategorie „Kinder": keine Datenerhebung,
+         keine Werbung, keine externen Links ohne Elternschranke.</p>
+    </section>
+
+    <section id="musik">
+      <h2><span class="dot"></span>Credits</h2>
+      <p class="muted">Hintergrundmusik: „Monkeys Spinning Monkeys" –
+         Kevin MacLeod (incompetech.com), lizenziert unter Creative Commons
+         BY 4.0. Soundeffekte selbst erstellt (gemeinfrei).</p>
+    </section>
+
+    <footer>
+      <p class="muted">© 2026 Eugen Kwol · Stand: Juli 2026</p>
+    </footer>
+  </main>
+</body>
+</html>
