@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VideoCut – Support</title>
+<style>
+  :root{
+    --peach:#FCD9C2; --lav:#DBD3F7; --sky:#C7E3FA; --mint:#CCF0DE;
+    --brand:#F18B7A; --ink:#33313C; --muted:#6b6875; --card:#ffffff;
+    --bg1:#eef4fb; --bg2:#f3eefb;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:linear-gradient(135deg,var(--bg1),var(--bg2));
+    min-height:100vh;line-height:1.6;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+  header{text-align:center;padding:36px 0 12px}
+  .logo{width:104px;height:104px;border-radius:26px;display:inline-flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,var(--mint),var(--lav));font-size:56px;box-shadow:0 10px 30px rgba(80,90,140,.18)}
+  h1{font-size:2rem;margin:.5rem 0 .2rem}
+  .sub{color:var(--muted);margin:0}
+  .badge{display:inline-block;background:var(--brand);color:#fff;font-weight:700;
+    padding:4px 14px;border-radius:999px;font-size:.85rem;margin-top:10px;letter-spacing:.5px}
+  .card{background:var(--card);border-radius:22px;padding:22px 24px;margin:18px 0;
+    box-shadow:0 8px 24px rgba(30,30,40,.06);border:1px solid rgba(0,0,0,.04)}
+  h2{font-size:1.25rem;margin:.2rem 0 .6rem}
+  a{color:var(--brand);font-weight:600;text-decoration:none}
+  a:hover{text-decoration:underline}
+  ul{padding-left:1.2rem;margin:.4rem 0}
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .feat div{background:linear-gradient(135deg,#fff,#fbf7ff);border-radius:14px;padding:12px 14px;font-size:.95rem;border:1px solid rgba(0,0,0,.04)}
+  .contact a{font-size:1.1rem}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
+  @media (max-width:520px){.feat{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🎬</div>
+    <h1>VideoCut</h1>
+    <p class="sub">Videos schneiden, zusammenfügen &amp; rückwärts</p>
+    <span class="badge">offline</span>
+  </header>
+
+  <div class="card">
+    <h2>Über die App</h2>
+    <p>VideoCut ist eine kostenlose, komplett offline nutzbare App zum Bearbeiten von
+       Videos: Ausschnitte schneiden, mehrere Clips zu einem Video verbinden und
+       Videos rückwärts laufen lassen – alles direkt auf deinem iPhone oder iPad.</p>
+    <div class="feat">
+      <div>✂️ <b>Schneiden</b><br>Start &amp; Ende wählen, verlustfrei</div>
+      <div>🎞️ <b>Zusammenfügen</b><br>beliebig viele Clips, Reihenfolge frei</div>
+      <div>⏪ <b>Rückwärts</b><br>mit oder ohne rückwärts laufenden Ton</div>
+      <div>📶 <b>Offline</b><br>keine Uploads, keine Datenerfassung</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Häufige Fragen</h2>
+    <p><b>Kostet die App etwas?</b><br>Nein. VideoCut ist komplett kostenlos und werbefrei.</p>
+    <p><b>Brauche ich ein Konto oder Internet?</b><br>Nein. Alle Funktionen laufen lokal auf deinem Gerät.</p>
+    <p><b>Wird mein Originalvideo verändert?</b><br>Nein. Jedes Ergebnis wird als neues Video gespeichert – in Fotos oder über „Teilen" in der Dateien-App.</p>
+    <p><b>Warum dauert „Rückwärts" länger?</b><br>Dabei wird jedes Bild neu kodiert. Längere oder 4K-Videos brauchen deshalb etwas Zeit – bitte die App geöffnet lassen.</p>
+  </div>
+
+  <div class="card contact">
+    <h2>Kontakt &amp; Support</h2>
+    <p>Fragen, Feedback oder ein Problem? Schreib mir gern:</p>
+    <p><a href="mailto:eugen@kwol.de">eugen@kwol.de</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Datenschutz</h2>
+    <p>VideoCut erfasst keine Daten. Die vollständige Datenschutzerklärung findest du hier:
+       <a href="privacy.html">Datenschutzerklärung</a>.</p>
+  </div>
+
+  <footer>© 2026 Eugen Kwol · VideoCut</footer>
+</div>
+</body>
+</html>
