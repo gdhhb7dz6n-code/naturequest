@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sudoku – Logik & Killer</title>
+<style>
+  :root { --accent:#6b7fd1; --bg:#f6f7fc; --card:#fff; --text:#1c1c23; --muted:#6a6a78; }
+  @media (prefers-color-scheme: dark){ :root{ --bg:#111218; --card:#1b1c24; --text:#f1f1f6; --muted:#9a9aa8; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:var(--bg); color:var(--text); line-height:1.6; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+  header { text-align:center; margin-bottom:40px; }
+  h1 { font-size:40px; margin:.2em 0; color:var(--accent); font-weight:800; }
+  .tag { color:var(--muted); font-size:18px; }
+  .card { background:var(--card); border-radius:18px; padding:24px 26px; margin:18px 0;
+          box-shadow:0 8px 24px rgba(0,0,0,.05); }
+  h2 { font-size:22px; margin-top:0; }
+  ul { padding-left:1.2em; } li { margin:.3em 0; }
+  a { color:var(--accent); }
+  footer { text-align:center; color:var(--muted); font-size:14px; margin-top:40px; }
+  .icon { font-size:64px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="icon">🔢</div>
+    <h1>Sudoku</h1>
+    <div class="tag">Logik & Killer — klassisch, X-Sudoku und Killer. Reine Logik, ohne Werbung, ohne Anmeldung.</div>
+  </header>
+
+  <div class="card">
+    <h2>Über die App</h2>
+    <p>Sudoku für iPhone und iPad mit drei Spielarten (Klassisch, Diagonal&nbsp;X, Killer),
+       fünf Schwierigkeitsstufen und lehrreichen Tipps, die dir die jeweilige Lösetechnik
+       erklären. Komplett offline, kostenlos, in acht Sprachen.</p>
+    <ul>
+      <li>Jedes Rätsel hat genau eine Lösung</li>
+      <li>Tipps nennen die Technik (Single, Pointing, Paare, X-Wing, XY-Wing …) und erklären das Warum</li>
+      <li>Tagesrätsel, Statistik, Notizen, Hell-/Dunkelmodus</li>
+      <li>Keine Konten, keine Werbung, kein Tracking</li>
+    </ul>
+  </div>
+
+  <div class="card" id="support">
+    <h2>Support</h2>
+    <p>Fragen, Wünsche oder ein Fehler? Schreib einfach an
+       <a href="mailto:eugen@kwol.de">eugen@kwol.de</a> — ich helfe gern weiter.</p>
+  </div>
+
+  <div class="card">
+    <h2>Datenschutz</h2>
+    <p>Die App erfasst <strong>keine</strong> Daten und benötigt keine Berechtigungen.
+       Alles bleibt auf deinem Gerät. Details:
+       <a href="privacy.html">Datenschutzerklärung</a>.</p>
+  </div>
+
+  <footer>© 2026 Eugen Kwol · <a href="mailto:eugen@kwol.de">eugen@kwol.de</a></footer>
+</div>
+</body>
+</html>
